@@ -1,13 +1,7 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Yelp;
-
 
 import java.math.BigDecimal;
 import java.util.Map;
-
 
 public class JSONNumber implements JSONValue {
     private String value = "0";

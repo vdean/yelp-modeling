@@ -1,14 +1,7 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Yelp;
 
 import java.util.Map;
 
-/**
- * 
- */
 public class JSONNull implements JSONValue {
     
     public static final JSONNull NULL = new JSONNull();

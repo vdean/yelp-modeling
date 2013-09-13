@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Yelp;
 
 import java.text.NumberFormat;
@@ -16,18 +12,13 @@ import Yelp.JSONObject;
 import Yelp.JSONString;
 import Yelp.JSONValue;
 
-/**
- * 
- */
 public class JSONDecoder {
     // Use English locale, cause the json spec allows only . as seperator
     private static NumberFormat numberFormat = 
         NumberFormat.getInstance(Locale.ENGLISH);
     
     private JSONReader reader = null;
-    /**
-     * 
-     */
+
     public JSONDecoder(final String json) {
         reader = new JSONReader(json);
     }
